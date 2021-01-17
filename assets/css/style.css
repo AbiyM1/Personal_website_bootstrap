@@ -4,17 +4,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', 'Times New Roman', serif;
-    /* border: 1px solid red; */
-    /* background: url("/assets/images/nav.jpg"); */
-
-
     box-sizing: border-box;
 
 }
 
 
-body {
-    background: url("/assets/images/nav.jpg");
+#indexbody{
+    background-image: url("/assets/images/nav.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -75,4 +71,20 @@ body {
         margin-top: 72px;
 
     }
+}
+
+a:visited{
+    color: purple;
+}
+.galleryItems{
+    width: 460px;
+  
+    
+}
+
+.galleryDiv{
+
+}
+.mainDiv{
+    margin-top:160px;
 }
