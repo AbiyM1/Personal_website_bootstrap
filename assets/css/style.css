@@ -26,6 +26,7 @@
     background-size: cover;
     background-attachment: fixed;
     color: white;
+    z-index: 15;
 }
 
 .fab {
