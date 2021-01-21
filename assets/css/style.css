@@ -89,26 +89,51 @@ a:visited {
     font-family: "sofia pro";
     color: black;
 }
-
-
-@keyframes background-vid{
-    0%{
-        opacity: 0;
-        
-    }
-    
-    
-    
-    90%{
-        opacity: 1;
-        background: url(/assets/images/nav.jpg);
-       
-        
-    }
-
-        
+.card-title{
+    text-transform: capitalize;
 }
 
-.background-vid{
-    animation: background-vid 10s;
+
+.date{
+    font-size: 14px;
+    width: fit-content;
+}
+a:hover{
+    text-decoration: none;
+}
+.big-text{
+    font-size: 35px;
+}
+.xl-text{
+    font-size: 50px;
+}
+.blog-social-media{
+    opacity: .6;
+    
+}
+.nav-item{
+    padding: 6px;
+}
+
+.blog-title{
+  
+    line-height: 57px;
+   
+}
+
+
+.blog-links{
+    font-family: "sofia pro";
+    text-transform: none;
+    color: black;
+    font-weight: bolder;
+
+}
+.blog-links:hover{
+    text-decoration: underline;
+    color: red;
+}
+.text-24px{
+    font-family: "sofia pro";
+    font-size: 24px;
 }
