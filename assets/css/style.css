@@ -6,7 +6,7 @@
     src: url("/assets/fonts/SofiaProLight.otf");
 }
 
-.contactPara {
+.sofiaPara {
     font-family: "sofia Pro";
     line-height: 30px;
     font-size: 15px;
@@ -71,4 +71,44 @@ a:visited {
     opacity: .7;
     transition-delay: 1s;
     transition: ease .6s;
+}
+
+.aboutBtn{
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-family: "sofia pro";
+
+}
+
+.aboutBtn:hover{
+    opacity: .7;
+}
+
+.card-title, .card-text{
+    font-family: "sofia pro";
+    color: black;
+}
+
+
+@keyframes background-vid{
+    0%{
+        opacity: 0;
+        
+    }
+    
+    
+    
+    90%{
+        opacity: 1;
+        background: url(/assets/images/nav.jpg);
+       
+        
+    }
+
+        
+}
+
+.background-vid{
+    animation: background-vid 10s;
 }
