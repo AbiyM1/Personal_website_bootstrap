@@ -18,14 +18,14 @@
 
 }
 
-#indexPage {
+#indexPage{
     font-family: 'Bebas neue';
-    background: url(../images/nav.jpg);
+    background: url(/assets/images/nav.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
+    color: white;
 }
 
 .fab {
