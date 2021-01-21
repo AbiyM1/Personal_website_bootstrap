@@ -1,117 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* @import url(//db.onlinewebfonts.com/c/02c5086e8616653dade6e7cb3a1f0498?family=LTCBodoni175W01-Regular); */
+
+@font-face {
+    font-family: "sofia Pro";
+    src: url("/assets/fonts/SofiaProLight.otf");
+}
+
+.contactPara {
+    font-family: "sofia Pro";
+    line-height: 30px;
+    font-size: 15px;
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', 'Times New Roman', serif;
+    font-family: 'Bebas neue', sans-serif, serif;
     box-sizing: border-box;
 
 }
 
-
-#indexbody {
-    background-image: url("/assets/images/nav.jpg");
+#indexPage {
+    font-family: 'Bebas neue';
+    background: url(../images/nav.jpg);
     background-position: center;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
-}
+    background-attachment: fixed;
 
-.navbar-brand {
-    text-decoration: underline;
-    text-transform: uppercase;
-    color: purple;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size: 32px;
-}
-
-.navbar-brand:hover {
-    color: purple;
-    text-decoration: underline;
-}
-
-.midItems {
-    text-transform: uppercase;
-    color: black;
-    text-decoration: underline;
-    font-size: 1rem;
-    /* padding: 10px; */
-    margin: 10px;
-
-
-}
-
-.midItems:hover {
-    color: black;
 }
 
 .fab {
-    width: 45px;
-    color: black;
+    color: white;
+    padding: 6px;
 }
 
-.abtMe {
-    text-transform: uppercase;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    margin-left: 12px;
+.socialIcons {
+    width: fit-content;
 
 }
 
-
-@media only screen and (max-width: 767px) {
-    .socialDiv {
-        margin-left: 12px;
-        margin-top: 8px;
-    }
-
-    .abtMeDiv {
-        /* color: white; */
-        margin-left: 56px;
-        margin-top: 72px;
-
-    }
-    .centerDiv {
-        display: block;
-    }
-    .aboutDiv{
-        margin: 2% auto;
-        width:fit-content;
-    }
+.navbar-brand {
+    font-size: 60px;
 }
 
-a:visited {
-    color: purple;
+.nav-link {
+    font-size: 23px;
+
 }
 
-.galleryItems {
-    width: 460px;
+.middleUl {
+    margin-right: 3%;
 }
-
 
 .mainDiv {
     margin-top: 160px;
 }
-.aboutDiv:first-child{
-    text-transform: uppercase;
-}
-.aboutDiv{
 
-    width: 560px;
-    margin-left: 5%;
-
-}
-footer{
-    margin-top: 4%;
-    text-align: center;
+a:visited {
+    font-weight: bold;
 }
 
-.contactPageDiv{
-    width: 694px;
-}
-.contactText:first-child{
-    display: block;
-    text-align: center;
-
+#contactHeader {
+    font-size: 50px;
 }
 
+#contactMargin {
+    margin-top: 40px;
+}
+
+.socialIcons:hover :not(:hover) {
+    opacity: .7;
+    transition-delay: 1s;
+    transition: ease .6s;
+}
