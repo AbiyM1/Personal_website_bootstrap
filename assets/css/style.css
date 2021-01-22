@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-/* @import url(//db.onlinewebfonts.com/c/02c5086e8616653dade6e7cb3a1f0498?family=LTCBodoni175W01-Regular); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-@font-face {
-    font-family: "sofia Pro";
-    src: url("/assets/fonts/SofiaProLight.otf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 
 .sofiaPara {
-    font-family: "sofia Pro";
+    font-family: 'Montserrat', sans-serif, serif;
     line-height: 30px;
     font-size: 15px;
 }
@@ -18,8 +16,8 @@
 
 }
 
-#indexPage{
-    font-family: 'Bebas neue';
+#indexPage {
+    font-family: 'Bebas neue', sans-serif, serif;
     background: url(/assets/images/nav.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -74,67 +72,76 @@ a:visited {
     transition: ease .6s;
 }
 
-.aboutBtn{
+.aboutBtn {
     text-transform: uppercase;
     color: black;
     text-decoration: none;
-    font-family: "sofia pro";
+    font-family: "Montserrat", sans-serif, serif;
 
 }
 
-.aboutBtn:hover{
+.aboutBtn:hover {
     opacity: .7;
 }
 
-.card-title, .card-text{
-    font-family: "sofia pro";
+.card-title,
+.card-text {
+    font-family: "Montserrat", sans-serif, serif;
     color: black;
 }
-.card-title{
+
+.card-title {
     text-transform: capitalize;
 }
 
 
-.date{
+.date {
     font-size: 14px;
     width: fit-content;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 }
-.big-text{
+
+.big-text {
     font-size: 35px;
 }
-.xl-text{
+
+.xl-text {
     font-size: 50px;
 }
-.blog-social-media{
+
+.blog-social-media {
     opacity: .6;
-    
+
 }
-.nav-item{
+
+.nav-item {
     padding: 6px;
 }
 
-.blog-title{
-  
+.blog-title {
+
     line-height: 57px;
-   
+
 }
 
 
-.blog-links{
-    font-family: "sofia pro";
+.blog-links {
+    font-family: "Montserrat", sans-serif, serif;
     text-transform: none;
     color: black;
     font-weight: bolder;
 
 }
-.blog-links:hover{
+
+.blog-links:hover {
     text-decoration: underline;
     color: red;
 }
-.text-24px{
-    font-family: "sofia pro";
+
+.text-24px {
+    font-family: "Montserrat", sans-serif, serif;
     font-size: 24px;
 }
