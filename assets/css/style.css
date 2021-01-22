@@ -18,7 +18,7 @@
 
 #indexPage {
     font-family: 'Bebas neue', sans-serif, serif;
-    background: url(/assets/images/nav.jpg);
+    background: url(./assets/images/nav.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
